@@ -32,6 +32,8 @@ brew install php@7.4
 ==> /usr/local/Cellar/php/7.4.3/bin/pear config-set php_bin /usr/local/opt/php/bin/php system
 ```
 
+brew services start php
+
 ---
 
 [^1]: [Mac 下 Docker 运行 Laravel 程序很慢（PHP/Nginx）](https://crifan.github.io/http_restful_api/website/)
